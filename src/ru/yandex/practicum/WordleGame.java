@@ -1,5 +1,7 @@
 package ru.yandex.practicum;
 
+import ru.yandex.practicum.exceptions.WordNotFoundInDictionary;
+
 import java.util.*;
 import java.io.PrintWriter;
 

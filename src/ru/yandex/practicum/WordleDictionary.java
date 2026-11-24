@@ -7,6 +7,7 @@ public class WordleDictionary {
 
     private final List<String> words;
     private final PrintWriter logger;
+    Random random = new Random();
 
     public WordleDictionary(List<String> words, PrintWriter logger) {
         this.words = words;
@@ -73,7 +74,6 @@ public class WordleDictionary {
     }
 
     public String getRandomHint(List<String> updatedList) {
-        Random random = new Random();
         int index = random.nextInt(updatedList.size());
         return updatedList.get(index);
     }

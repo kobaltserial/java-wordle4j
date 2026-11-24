@@ -1,5 +1,7 @@
 package ru.yandex.practicum;
 
+import ru.yandex.practicum.exceptions.IllegalStateException;
+
 import java.io.*;
 import java.nio.charset.StandardCharsets;
 import java.util.*;
