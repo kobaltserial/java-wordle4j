@@ -5,6 +5,7 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.io.TempDir;
+import ru.yandex.practicum.exceptions.IllegalStateException;
 import ru.yandex.practicum.exceptions.WordNotFoundInDictionary;
 
 import java.io.IOException;
