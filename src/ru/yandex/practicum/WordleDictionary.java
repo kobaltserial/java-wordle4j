@@ -72,7 +72,7 @@ public class WordleDictionary {
         return updatedList;
     }
 
-    public String getRandomHint (List<String> updatedList) {
+    public String getRandomHint(List<String> updatedList) {
         Random random = new Random();
         int index = random.nextInt(updatedList.size());
         return updatedList.get(index);
